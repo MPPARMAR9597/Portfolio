@@ -1,0 +1,35 @@
+/* Item: Maulik Parmar MP | DesignMart
+Description: Our Portfolio
+Developer: Maulik Parmar - MP | DesignMart
+Developer URL: https://maulikparmar.github.io/portfolio/
+Version: v0.0.1 */
+
+/* Import Another Css File in Main Stylesheet */
+
+@import "css-variables.css";
+@import "responsive-querys.css";
+/* Import Another Css File in Main Stylesheet */
+
+/* Preloader Css Code Start */
+
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--LoaderBackgroundColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.preloader svg {
+    width: 150px;
+    height: 100vh;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* Preloader Css Code End */

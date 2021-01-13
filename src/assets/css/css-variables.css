@@ -1,0 +1,62 @@
+:root {
+    --LoaderBackgroundColor: #0e0e0e;
+    --BodyBackgroundColor: #111;
+    --BodyDefaultFontTextColor: #9f9f9f;
+    --BodyDefaultFontSize: 14px;
+    --HeadingTagTextColor: #f0f0f0;
+}
+
+/* ?Comman Tags Css Define Here */
+
+*, html {
+    margin: 0;
+    padding: 0
+}
+
+:focus {
+    outline: 0
+}
+
+::-moz-focus-inner {
+    border: 0
+}
+
+body {
+    background-color: var(--BodyBackgroundColor);
+    color: var(--BodyDefaultFontTextColor);
+    font-family: "Poppins", sans-serif;
+    font-size: var(--BodyDefaultFontSize);
+    font-weight: 400;
+    line-height: 1.95;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0
+}
+
+i.icon {
+    line-height: 100%
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: var(--HeadingTagTextColor);
+}
+
+b {
+    font-weight: 700
+}
+
+a {
+    transition: all .15s ease-in-out
+}
+
+a:focus, a:hover {
+    text-decoration: none
+}
+
+hr {
+    border-top: 3px solid #1b1b1b;
+    margin: 0
+}
+
+/* ?Comman Tags Css Define Here */
