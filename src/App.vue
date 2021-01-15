@@ -1,14 +1,19 @@
 <template>
-  <Loader></Loader>
+  <div id="callAllComponentHere">
+    <Loader></Loader>
+    <Home></Home>
+  </div>
 </template>
 
 <script>
 import Loader from "./components/Loader.vue";
+import Home from "./components/Home.vue";
 
 export default {
   name: "App",
   components: {
     Loader,
+    Home,
   },
 };
 </script>

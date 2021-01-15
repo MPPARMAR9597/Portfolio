@@ -33,3 +33,143 @@ Version: v0.0.1 */
 }
 
 /* Preloader Css Code End */
+
+/* Home Page Css Code Start */
+
+.home-section {
+    background-color: var(--BodyBackgroundColor);
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-cover-bg {
+    background-color: rgba(0, 0, 0, .85);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.home-section::before {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.home-cover-bg::before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.nav-menu {
+    background-color: transparent;
+    padding: 23px 50px;
+}
+
+.nav-menu .navbar-brand img {
+    width: 110px;
+}
+
+.nav-menu .navbar-nav .nav-item:not(:last-child) .nav-link {
+    margin-right: 32px;
+}
+
+.nav-menu .navbar-nav .nav-link {
+    color: #e6e6e6;
+    font-size: 15px;
+    padding: 0;
+}
+
+.height-100 {
+    height: 100% !important;
+}
+
+.home-section .home-name {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 34px;
+}
+
+.home-section .home-headline {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    margin-bottom: 0;
+}
+
+.home-section .home-headline .single-headline {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 10px;
+    color: #fff;
+    border-right: solid #FFF 5px;
+    text-transform: uppercase;
+    animation: cursor 1s ease-in-out infinite;
+    font-weight: bold;
+}
+
+@keyframes cursor {
+    from {
+        border-color: #FFF;
+    }
+    to {
+        border-color: transparent;
+    }
+}
+
+.home-section .fixed-wrapper {
+    margin: 0 50px;
+    position: relative
+}
+
+.home-section .fixed-wrapper .fixed-block {
+    bottom: 34px;
+    position: absolute
+}
+
+.home-section .fixed-wrapper .fixed-block.block-left {
+    left: 0
+}
+
+.home-section .fixed-wrapper .fixed-block.block-right {
+    right: 0
+}
+
+.home-section .fixed-wrapper .languages-list {
+    margin-bottom: 0
+}
+
+.home-section .fixed-wrapper .languages-list .single-language {
+    -webkit-transform: rotate(680deg);
+    color: #e6e6e6;
+    display: block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transform: rotate(680deg)
+}
+
+.home-section .fixed-wrapper .social-icons {
+    margin-bottom: 0
+}
+
+.home-section .fixed-wrapper .social-icons>li {
+    line-height: 100%;
+    margin-top: 14px;
+    text-align: center
+}
+
+.home-section .fixed-wrapper .social-icons i.icon {
+    color: #f3f3f3;
+    font-size: 23px;
+    line-height: 100%
+}
+
+/* Home Page Css Code End */

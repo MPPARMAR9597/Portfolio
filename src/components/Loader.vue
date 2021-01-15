@@ -1,5 +1,5 @@
 <template>
-  <div class="loader" id="app">
+  <div class="loader" id="Loader">
     <!-- Preloader Section Code Start-->
     <div class="preloader">
       <svg x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
@@ -35,6 +35,6 @@
   $(window).on("load", function () {
     setInterval(function () {
       $(".preloader").fadeOut("slow");
-    }, 10000);
+    }, 1000);
   });
 </script>
