@@ -1,19 +1,31 @@
 <template>
   <div id="callAllComponentHere">
     <Loader></Loader>
+    <Cursor></Cursor>
+    <Navigation></Navigation>
     <Home></Home>
+    <About></About>
+    <Contact></Contact>
   </div>
 </template>
 
 <script>
 import Loader from "./components/Loader.vue";
+import Cursor from "./components/Cursor.vue";
+import Navigation from "./components/Navigation.vue";
 import Home from "./components/Home.vue";
+import About from "./components/About.vue";
+import Contact from "./components/Contact.vue";
 
 export default {
   name: "App",
   components: {
     Loader,
+    Cursor,
+    Navigation,
     Home,
+    About,
+    Contact,
   },
 };
 </script>
