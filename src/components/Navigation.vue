@@ -29,6 +29,9 @@
             <a class="nav-link" href="#About">About</a>
           </li>
           <li class="{'active': isActive} nav-item">
+            <a class="nav-link" href="#MySkills">My Skills</a>
+          </li>
+          <li class="{'active': isActive} nav-item">
             <a class="nav-link" href="#resume">Resume</a>
           </li>
           <li class="{'active': isActive} nav-item">

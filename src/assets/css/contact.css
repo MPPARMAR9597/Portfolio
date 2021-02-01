@@ -4,7 +4,7 @@
 }
 
 .content-content {
-    margin: 80px 0;
+    margin: 50px 0;
 }
 
 .section-heading {
@@ -109,8 +109,8 @@
 
 button#contact-submit {
     padding: 10px 26px;
-    background-color: #009e66 !important;
-    border: 1px solid #009e66 !important;
+    background-color: #009e66;
+    border: 1px solid #009e66;
     color: #fff;
     cursor: pointer;
     border-radius: 30px;
@@ -122,6 +122,11 @@ button#contact-submit {
     vertical-align: middle;
     text-transform: none;
     float: right;
+    transition: 0.9s ease-in-out;
+}
+
+button#contact-submit:hover, button#contact-submit:active, button#contact-submit:focus {
+    background-color: unset;
 }
 
 #Contact .contact-section .contact-info {
@@ -162,5 +167,9 @@ button#contact-submit {
 .social-icon-section:hover {
     background-color: #009e66;
     transition: 0.9s ease-in-out;
+    color: #fff;
+}
+
+.social-icon-section:hover i.white-color {
     color: #fff;
 }

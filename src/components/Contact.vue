@@ -55,7 +55,7 @@
                 <div class="col-6 col-md-4 text-center">
                   <div class="social-icon-section">
                     <a href="https://twitter.com/mkparmar41">
-                      <i class="fa fa fa-twitter"></i><br />
+                      <i class="fa fa fa-twitter white-color"></i><br />
                       Twitter
                     </a>
                   </div>
@@ -64,7 +64,7 @@
                 <div class="col-6 col-md-4 text-center">
                   <div class="social-icon-section">
                     <a href="https://www.facebook.com/MP9597/">
-                      <i class="fa fa-facebook-official"></i><br />
+                      <i class="fa fa-facebook-official white-color"></i><br />
                       Facebook
                     </a>
                   </div>
@@ -73,7 +73,7 @@
                 <div class="col-6 col-md-4 text-center">
                   <div class="social-icon-section">
                     <a href="https://www.linkedin.com/in/mp9597/">
-                      <i class="fa fa-linkedin-square"></i><br />
+                      <i class="fa fa-linkedin-square white-color"></i><br />
                       LinkedIn
                     </a>
                   </div>
@@ -84,7 +84,7 @@
                 <div class="col-6 col-md-4 text-center">
                   <div class="social-icon-section">
                     <a href="https://github.com/MPPARMAR9597">
-                      <i class="fa fa-github"></i><br />
+                      <i class="fa fa-github white-color"></i><br />
                       Github
                     </a>
                   </div>
@@ -93,7 +93,7 @@
                 <div class="col-6 col-md-4 text-center">
                   <div class="social-icon-section">
                     <a href="https://www.instagram.com/m_p_9597/">
-                      <i class="fa fa-instagram"></i><br />
+                      <i class="fa fa-instagram white-color"></i><br />
                       Instagram
                     </a>
                   </div>
@@ -102,7 +102,7 @@
                 <div class="col-6 col-md-4 text-center">
                   <div class="social-icon-section">
                     <a href="https://www.instagram.com/m_p_9597/">
-                      <i class="fa fa-instagram"></i><br />
+                      <i class="fa fa-instagram white-color"></i><br />
                       Instagram
                     </a>
                   </div>

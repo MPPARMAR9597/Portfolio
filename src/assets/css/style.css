@@ -7,6 +7,7 @@ Version: v0.0.1 */
 /* Import Another Css File in Main Stylesheet */
 
 @import "css-variables.css";
+@import "about.css";
 @import "contact.css";
 @import "responsive-querys.css";
 /* Import Another Css File in Main Stylesheet */

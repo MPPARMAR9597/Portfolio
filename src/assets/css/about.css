@@ -1,0 +1,61 @@
+.about {
+    background-color: #101010;
+    height: 100vh;
+}
+
+.lightbox-wrapper .single-section:not(:last-child) {
+    margin-bottom: 120px;
+}
+
+.image-cropper {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.profile-pic {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+}
+
+#About .content-block .content-title {
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+#About .content-description {
+    font-size: 15px;
+}
+
+#About .content-description p:last-child {
+    border-bottom: 2px solid rgba(255, 255, 255, .08);
+    margin-bottom: 0;
+    padding-bottom: 29px;
+}
+
+#About .content-info {
+    font-size: 15px;
+    margin-bottom: 4px;
+    padding: 29px 0;
+}
+
+#About .content-info .single-info {
+    margin-bottom: 10px;
+}
+
+#About .content-info .single-info>span {
+    color: #dadada;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+#About .content-info .single-info>p {
+    display: inline-block;
+    margin-bottom: 0;
+}

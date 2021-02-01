@@ -35,7 +35,7 @@ body {
 }
 
 i.icon {
-    line-height: 100%
+    line-height: 100%;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -43,20 +43,24 @@ i.icon {
 }
 
 b {
-    font-weight: 700
+    font-weight: 700;
 }
 
 a {
-    transition: all .15s ease-in-out
+    transition: all .15s ease-in-out;
+}
+
+a:not(.btn) {
+    color: #009e66;
 }
 
 a:focus, a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 hr {
     border-top: 3px solid #1b1b1b;
-    margin: 0
+    margin: 0;
 }
 
 p {
