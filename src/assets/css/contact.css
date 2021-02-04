@@ -105,6 +105,8 @@
 .contact#Contact .contact-section.single-section textarea.form-control {
     height: auto;
     min-height: 180px;
+    max-height: 180px;
+    resize: none;
 }
 
 button#contact-submit {

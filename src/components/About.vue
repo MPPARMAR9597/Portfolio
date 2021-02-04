@@ -22,18 +22,14 @@
             <div class="row align-items-center">
               <!-- Image Section -->
               <div class="col-6 col-lg-5 info-img">
-                <div class="image-cropper">
-                  <img
-                    class="profile-pic"
-                    src="../assets/images/MP-Profile-Picture.jpg"
-                    alt="About Picture"
-                  />
+                <div class="image-cropper align-items-center">
+                  <img class="profile-pic" src="../assets/images/MP-Profile-Picture.png" alt="About Picture" />
                 </div>
               </div>
               <!-- Image Section -->
               <!-- Description Section -->
               <div class="col-6 col-lg-7">
-                <div class="content-block">
+                <div class="content-block align-items-center">
                   <h6 class="content-title">
                     I'm Maulik Parmar, a Web Developer and Designer
                   </h6>
@@ -54,9 +50,7 @@
                       <div class="col-12 col-md-6 single-info">
                         <span>Email:</span>
                         <p>
-                          <a href="mailto:Mkparmar41@gmail.com"
-                            >Mkparmar41@gmail.com</a
-                          >
+                          <a href="mailto:Mkparmar41@gmail.com">Mkparmar41@gmail.com</a>
                         </p>
                       </div>
                     </div>
@@ -71,12 +65,8 @@
                       </div>
                     </div>
                   </address>
-                  <div class="d-block d-sm-flex align-items-center">
-                    <button
-                      class="btn button-main button-scheme"
-                      id="contact-submit"
-                      type="submit"
-                    >
+                  <div class="d-block d-sm-flex pull-right">
+                    <button class="btn button-main button-scheme" id="contact-submit" type="submit">
                       Download CV
                     </button>
                   </div>
@@ -92,7 +82,7 @@
 </template>
 
 <script>
-export default {
-  name: "About",
-};
+  export default {
+    name: "About",
+  };
 </script>

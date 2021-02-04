@@ -32,10 +32,10 @@
             <a class="nav-link" href="#MySkills">My Skills</a>
           </li>
           <li class="{'active': isActive} nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
+            <a class="nav-link" href="#Resume">Resume</a>
           </li>
           <li class="{'active': isActive} nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
           </li>
           <li class="{'active': isActive} nav-item">
             <a class="nav-link" href="#Contact">Contact</a>

@@ -1,0 +1,13 @@
+.portfolio {
+    background-color: #101010;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.portfolio h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}

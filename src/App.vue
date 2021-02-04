@@ -5,6 +5,9 @@
     <Navigation></Navigation>
     <Home></Home>
     <About></About>
+    <MySkills></MySkills>
+    <Resume></Resume>
+    <Portfolio></Portfolio>
     <Contact></Contact>
   </div>
 </template>
@@ -15,6 +18,9 @@ import Cursor from "./components/Cursor.vue";
 import Navigation from "./components/Navigation.vue";
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
+import MySkills from "./components/MySkills.vue";
+import Resume from "./components/Resume.vue";
+import Portfolio from "./components/Portfolio.vue";
 import Contact from "./components/Contact.vue";
 
 export default {
@@ -25,6 +31,9 @@ export default {
     Navigation,
     Home,
     About,
+    MySkills,
+    Resume,
+    Portfolio,
     Contact,
   },
 };
